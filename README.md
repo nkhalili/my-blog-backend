@@ -28,3 +28,11 @@ To tell babel how to transpile our ES6 code into common js code that Node JS can
 ```powershell
     npx babel-node src/server.js
 ```
+
+## Body parser
+
+To parse body of a POST request.
+
+```powershell
+    npm install --save body-parser
+```
