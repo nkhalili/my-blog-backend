@@ -1,13 +1,13 @@
 # My Blog Backend
 
-## Server
+## Create project
 
 ```powershell
     npm init -y
     npm install --save express
 ```
 
-## Babel
+## Babel support
 
 To make Node support ES6 for us:
 
