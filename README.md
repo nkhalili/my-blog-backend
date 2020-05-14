@@ -22,3 +22,9 @@ To tell babel how to transpile our ES6 code into common js code that Node JS can
     "presets": ["@babel/preset-env"]
 }
 ```
+
+## To start our server
+
+```powershell
+    npx babel-node src/server.js
+```
