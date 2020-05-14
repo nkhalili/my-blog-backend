@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 
 // to create an endpoint for our app (get request)
 app.get('/hello', (req, res) => res.send('hello'));
+app.get('/hello/:name', (req, res) => res.send(`Hello ${req.params.name}`))
 app.post('/hello', (req, res) => res.send(`Hello ${req.body.name}!`));
 
 // to add listener
