@@ -36,3 +36,19 @@ To parse body of a POST request.
 ```powershell
     npm install --save body-parser
 ```
+
+## Server watcher
+
+Whenever your files change, your page will be automatically refreshed.
+
+First install *nodemon* package:
+
+```powershell
+    npm install nodemon --save-dev
+```
+
+Second, run your server using this command:
+
+```powershell
+    npx nodemon --exec npx babel-node src/server.js
+```
