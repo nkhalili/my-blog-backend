@@ -137,3 +137,11 @@ Second, run your server using this command:
         ```MongoShell
             > db.articles.findOne({ name: 'learn-react' })
         ```
+
+### To add MongoDB to express server
+
+Add mongodb library to the project, it allows us to connect and modify our database:
+
+```powershell
+    npm install mongodb --save
+```
