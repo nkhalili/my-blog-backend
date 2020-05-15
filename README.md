@@ -120,7 +120,7 @@ Second, run your server using this command:
             > db.articles.find({})
         ```
 
-        Or to see it in a readable format use .pretty() 
+        Or to see it in a readable format use .pretty()
 
         ```MongoShell
             > db.articles.find({}).pretty()
